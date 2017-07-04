@@ -1,0 +1,82 @@
+body {
+    background-color: lightgreen;
+}
+
+#all {
+    background-color: lightgrey;
+    width: 600px;
+    min-height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px 0;
+    border: 3px solid darkgrey;
+    border-radius: 20px;
+}
+
+h1 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.complete h2 {
+    color: grey;
+}
+
+.green {
+    background-color: lightgreen;
+    outline: none;
+}
+
+.grey {
+    background-color: darkgrey;
+}
+
+.red {
+    background-color: salmon;
+}
+
+#taskInput {
+    background-color: white;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 100px;
+    border: 2px solid lightgreen;
+    text-align: center;
+    outline: none;
+}
+
+#taskList {
+    list-style-type: none;
+    display: block;
+    width: 600px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#removeFinishedTasksButton {
+    width: 150px;
+    background-color: salmon;
+    margin-top: 10px;
+}
+
+#counter {
+    margin-top: 50px;
+    font-style: italic;
+}
+
+#addTaskButton {
+    background-color: lightgreen;
+    border-radius: 5px;
+    outline: none;
+}
